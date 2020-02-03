@@ -1,0 +1,17 @@
+// vscode settings
+{
+    "editor.fontSize": 14,
+    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.mouseWheelZoom": true,
+    "window.zoomLevel": 0,
+    "files.exclude": {
+        "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontFamily": "'Hack Nerd Font'",
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_style": "Google"
+}
