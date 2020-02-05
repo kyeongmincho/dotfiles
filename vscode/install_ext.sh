@@ -5,6 +5,7 @@ code --install-extension bungcip.better-toml
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dhedgecock.radical-vscode
 code --install-extension eamodio.gitlens
+code --install-extension Gruntfuggly.todo-tree
 code --install-extension matklad.rust-analyzer
 code --install-extension maximedenes.vscoq
 code --install-extension mhutchie.git-graph
