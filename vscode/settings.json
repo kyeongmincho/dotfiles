@@ -1,8 +1,7 @@
 // vscode settings
 {
     "editor.fontSize": 14,
-    "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Hack Nerd Font', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
     "editor.minimap.enabled": false,
     "editor.detectIndentation": false,
     "editor.mouseWheelZoom": true,
@@ -11,7 +10,6 @@
         "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
     },
     "files.trimTrailingWhitespace": true,
-    "terminal.integrated.fontFamily": "'Hack Nerd Font'",
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
     "workbench.colorTheme": "Zenburn Dark Matter - Cold - Burn",
