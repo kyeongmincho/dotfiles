@@ -14,7 +14,7 @@
     "terminal.integrated.fontFamily": "'Hack Nerd Font'",
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
-    "workbench.colorTheme": "Radical",
+    "workbench.colorTheme": "Zenburn Dark Matter - Cold - Burn",
     "workbench.iconTheme": "vscode-icons",
     "todo-tree.highlights.enabled": true,
     "todo-tree.general.tags": [
