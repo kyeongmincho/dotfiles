@@ -6,6 +6,8 @@
     "editor.detectIndentation": false,
     "editor.mouseWheelZoom": true,
     "editor.folding": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
     "window.zoomLevel": 0,
     "files.exclude": {
         "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
