@@ -95,7 +95,7 @@
                              haskell-mode markdown-mode rust-mode cargo
                              paredit flycheck flycheck-color-mode-line
                              flycheck-ocaml flycheck-haskell flycheck-rust
-                             proof-general company-coq undo-tree elpy srefactor))
+                             proof-general company-coq undo-tree srefactor))
 
 (package-initialize)
 
@@ -371,15 +371,6 @@
     (save-window-excursion (with-current-buffer (find-file file)
                              (ispell-buffer)))
     (message nil)))
-
-;; Python
-(add-hook 'python-mode-hook
-          (lambda ()
-            (paredit-mode t)
-            (require 'pyvenv)
-            (pyvenv-activate "/Users/kyeongmin.cho/home_pyvenv/") ; !경로!
-            (elpy-enable)
-            (setq elpy-rpc-python-command "/Users/kyeongmin.cho/home_pyvenv/bin/python3"))) ; !경로!
 
 ;; gtags
 (autoload 'gtags-mode "gtags" "" t)
