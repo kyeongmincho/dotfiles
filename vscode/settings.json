@@ -27,5 +27,7 @@
     "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|\\(\\*)\\s*($TAGS)|^\\s*- \\[ \\])|(admit\\.)",
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust"
-    }
+    },
+    "rust-analyzer.highlightingOn": true,
+    "rust-analyzer.rainbowHighlightingOn": true
 }
