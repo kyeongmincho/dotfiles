@@ -1,31 +1,42 @@
-// vscode settings
 {
-    "editor.fontSize": 14,
-    "editor.fontFamily": "'Hack Nerd Font', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "editor.minimap.enabled": false,
+    //
+    // vscode settings
+    //
+    "editor.cursorBlinking": "expand",
     "editor.detectIndentation": false,
-    "editor.mouseWheelZoom": true,
     "editor.folding": false,
+    "editor.fontFamily": "'Hack Nerd Font', 'Fira Code', monospace",
+    "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
-    "window.zoomLevel": 0,
+    "editor.lineHeight": 20,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "explorer.confirmDragAndDrop": false,
     "files.exclude": {
         "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
     },
     "files.trimTrailingWhitespace": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "vscode-icons",
+    //
+    // language-specific settings
+    //
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust"
+    },
+    //
+    // extension settings
+    //
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
     "workbench.colorTheme": "Zenburn Dark Matter - Cold - Burn",
-    "workbench.iconTheme": "vscode-icons",
-    "todo-tree.highlights.enabled": true,
     "todo-tree.general.tags": [
         "BUG",
         "FIXME",
         "TODO",
         "CHECK"
     ],
+    "todo-tree.highlights.enabled": true,
     "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|\\(\\*)\\s*($TAGS)|^\\s*- \\[ \\])|(admit\\.)",
-    "[rust]": {
-        "editor.defaultFormatter": "rust-lang.rust"
-    }
 }
