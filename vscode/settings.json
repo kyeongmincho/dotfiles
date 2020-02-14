@@ -18,6 +18,7 @@
     },
     "files.trimTrailingWhitespace": true,
     "window.zoomLevel": 0,
+    "workbench.colorTheme": "hc-zenburn",
     "workbench.iconTheme": "vscode-icons",
     //
     // language-specific settings
@@ -28,9 +29,15 @@
     //
     // extension settings
     //
+    "bracket-pair-colorizer-2.colors": [
+        "#DCDCCC",
+        "#CCF8CC",
+        "#FDECBC"
+    ],
+    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
-    "workbench.colorTheme": "Zenburn Dark Matter - Cold - Burn",
+    "C_Cpp.enhancedColorization": "Disabled",
     "todo-tree.general.tags": [
         "BUG",
         "FIXME",
