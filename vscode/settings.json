@@ -5,7 +5,7 @@
     "editor.cursorBlinking": "expand",
     "editor.detectIndentation": false,
     "editor.folding": false,
-    "editor.fontFamily": "'Hack Nerd Font', 'Fira Code', monospace",
+    "editor.fontFamily": "'Hack Nerd Font', 'Hack NF', 'Hack', monospace",
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
