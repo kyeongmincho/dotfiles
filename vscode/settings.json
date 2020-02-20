@@ -35,9 +35,9 @@
     // extension settings
     //
     "bracket-pair-colorizer-2.colors": [
-        "#DCDCCC",
-        "#CCF8CC",
-        "#FDECBC"
+        "#dbc27e",
+        "#f5dfde",
+        "#b7cfc4",
     ],
     "bracket-pair-colorizer-2.forceIterationColorCycle": true,
     "C_Cpp.clang_format_fallbackStyle": "Google",
