@@ -10,6 +10,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.lineHeight": 17,
+    "editor.lineNumbers": "off",
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
     "explorer.confirmDragAndDrop": false,
