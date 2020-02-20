@@ -18,6 +18,8 @@
         "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
     },
     "files.trimTrailingWhitespace": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
     "window.zoomLevel": 0,
     "workbench.colorTheme": "hc-zenburn",
     "workbench.iconTheme": "vscode-icons",
