@@ -3,6 +3,7 @@
 
 code --install-extension bungcip.better-toml
 code --install-extension CoenraadS.bracket-pair-colorizer-2
+code --install-extension drzix.hc-zenburn-vscode
 code --install-extension dunstontc.vscode-rust-syntax
 code --install-extension eamodio.gitlens
 code --install-extension Gruntfuggly.todo-tree

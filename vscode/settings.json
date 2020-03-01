@@ -20,7 +20,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "window.zoomLevel": 0,
-    "workbench.colorTheme": "hc-zenburn",
+    "workbench.colorTheme": "Higher Contrast Zenburn",
     "workbench.iconTheme": "vscode-icons",
     //
     // language-specific settings
