@@ -17,7 +17,6 @@ code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cpptools
 code --install-extension rust-lang.rust
 code --install-extension serayuzgur.crates
-code --install-extension siegebell.prettify-symbols-mode
 code --install-extension siegebell.proof-general-keybindings-for-vscoq
 code --install-extension Swellaby.vscode-rust-test-adapter
 code --install-extension vadimcn.vscode-lldb

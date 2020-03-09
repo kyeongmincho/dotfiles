@@ -4,7 +4,8 @@
     //
     "editor.detectIndentation": false,
     "editor.folding": false,
-    "editor.fontFamily": "'Hack Nerd Font', 'Hack NF', 'Hack', monospace",
+    "editor.fontFamily": "'Fira Code', monospace",
+    "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss05', 'ss06'",
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -20,6 +21,7 @@
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "window.zoomLevel": 0,
+    "terminal.integrated.fontFamily": "'Hack Nerd Font', 'Hack NF', 'Hack', monospace",
     "workbench.colorTheme": "Higher Contrast Zenburn",
     "workbench.iconTheme": "vscode-icons",
     //
