@@ -15,13 +15,13 @@
     "editor.mouseWheelZoom": true,
     "explorer.confirmDragAndDrop": false,
     "files.exclude": {
-        "**/*.{vo,vio,cache,v.d,glob,aux,bak}": true
+        "**/*.{vo,vio,vos,cache,v.d,glob,aux,bak}": true
     },
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
-    "window.zoomLevel": 0,
     "terminal.integrated.fontFamily": "'Hack Nerd Font', 'Hack NF', 'Hack', monospace",
+    "window.zoomLevel": 2,
     "workbench.colorTheme": "Higher Contrast Zenburn",
     "workbench.iconTheme": "vscode-icons",
     //
@@ -30,6 +30,9 @@
     "[c]": {
         "editor.tabSize": 8,
         "editor.formatOnSave": false,
+    },
+    "[coq]": {
+        "editor.tabSize": 2,
     },
     "[cpp]": {
         "editor.tabSize": 2,
@@ -45,7 +48,6 @@
         "#f5dfde",
         "#b7cfc4",
     ],
-    "bracket-pair-colorizer-2.forceIterationColorCycle": true,
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
     "C_Cpp.enhancedColorization": "Disabled",
