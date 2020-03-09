@@ -12,6 +12,8 @@ code --install-extension matklad.rust-analyzer
 code --install-extension maximedenes.vscoq
 code --install-extension mhutchie.git-graph
 code --install-extension ms-python.python
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cpptools
 code --install-extension rust-lang.rust
 code --install-extension serayuzgur.crates
