@@ -111,8 +111,12 @@ test -r $HOME/.opam/opam-init/init.zsh && . $HOME/.opam/opam-init/init.zsh > /de
 
 # alias
 alias e=emacs
-alias gcc=gcc-9
-alias g++=g++-9
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    alias gcc=gcc-9
+    alias g++=g++-9
+fi
+
+# pyenv
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
