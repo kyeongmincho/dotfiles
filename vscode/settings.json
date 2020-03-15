@@ -18,10 +18,13 @@
         "**/*.{vo,vio,vos,cache,v.d,glob,aux,bak}": true
     },
     "files.trimTrailingWhitespace": true,
+    "files.watcherExclude": {
+        "**/target/**": true
+    },
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.fontFamily": "'Hack Nerd Font', 'Hack NF', 'Hack', monospace",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": 0,
     "workbench.colorTheme": "Higher Contrast Zenburn",
     "workbench.iconTheme": "vscode-icons",
     //
