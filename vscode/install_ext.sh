@@ -6,6 +6,7 @@ code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension drzix.hc-zenburn-vscode
 code --install-extension dunstontc.vscode-rust-syntax
 code --install-extension eamodio.gitlens
+code --install-extension freebroccolo.reasonml
 code --install-extension Gruntfuggly.todo-tree
 code --install-extension hbenl.vscode-test-explorer
 code --install-extension matklad.rust-analyzer
