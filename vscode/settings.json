@@ -43,6 +43,9 @@
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust"
     },
+    "[ocaml]": {
+        "editor.tabSize": 2,
+    },
     //
     // extension settings
     //
