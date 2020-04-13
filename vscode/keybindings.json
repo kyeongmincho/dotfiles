@@ -14,8 +14,13 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "shift+alt+a",
-        "command": "-editor.action.blockComment",
-        "when": "editorTextFocus && !editorReadonly"
+        "key": "ctrl+e",
+        "command": "cursorEnd",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "deleteAllRight",
+        "when": "terminalFocus"
     }
 ]
