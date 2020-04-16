@@ -22,5 +22,10 @@
         "key": "ctrl+k",
         "command": "deleteAllRight",
         "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "workbench.action.duplicateWorkspaceInNewWindow",
+        "when": "!terminalFocus"
     }
 ]
