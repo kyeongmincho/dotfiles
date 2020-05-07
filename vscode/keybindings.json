@@ -27,5 +27,15 @@
         "key": "ctrl+k ctrl+k",
         "command": "workbench.action.duplicateWorkspaceInNewWindow",
         "when": "!terminalFocus"
-    }
+    },
+    {
+        "key": "shift+alt+oem_comma",
+        "command": "cursorTop",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+oem_period",
+        "command": "cursorBottom",
+        "when": "textInputFocus"
+    },
 ]
