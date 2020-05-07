@@ -2,6 +2,7 @@
     //
     // vscode settings
     //
+    "editor.acceptSuggestionOnEnter": "off",
     "editor.cursorStyle": "block",
     "editor.detectIndentation": false,
     "editor.folding": false,
