@@ -5,7 +5,15 @@
         "command": "workbench.action.reloadWindow"
     },
     {
+        "key": "cmd+r",
+        "command": "workbench.action.reloadWindow"
+    },
+    {
         "key": "shift+alt+win+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "shift+alt+cmd+i",
         "command": "editor.action.inspectTMScopes"
     },
     {
