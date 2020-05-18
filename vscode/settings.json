@@ -57,7 +57,6 @@
     ],
     "C_Cpp.clang_format_fallbackStyle": "Google",
     "C_Cpp.clang_format_style": "Google",
-    "C_Cpp.enhancedColorization": "Disabled",
     "reason.codelens.enabled": true,
     "todo-tree.general.tags": [
         "BUG",
