@@ -1,3 +1,18 @@
+# zsh
+case "$(uname -s)" in
+   Darwin)
+     brew install -y zsh
+     ;;
+
+   Linux)
+     sudo apt install -y zsh
+     ;;
+
+    *)
+     echo 'Other OS'
+     ;;
+esac
+
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -10,11 +25,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # autojump
 case "$(uname -s)" in
    Darwin)
-     brew install autojump
+     brew install -y autojump
      ;;
 
    Linux)
-     sudo apt install autojump
+     sudo apt install -y autojump
      ;;
 
     *)
