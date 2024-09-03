@@ -72,7 +72,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(
     git
     zsh-syntax-highlighting
-    autojump
 )
 
 source $ZSH/oh-my-zsh.sh
