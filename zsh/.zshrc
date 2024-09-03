@@ -123,3 +123,10 @@ fi
 
 # out of WSL
 WINHOME=/mnt/c/Users/drzix
+
+
+# Rebellions
+export REBEL_DEPENDENCY=/tools/lib/rebel_dependency
+export REBEL_HOME=/home/myeongbo/c/compiler/rebel_compiler # rebel_compiler PATH
+export PYTHONPATH=$REBEL_HOME/python:$PYTHONPATH
+export PYTHONPATH=$REBEL_HOME/rebel/python:$PYTHONPATH
